@@ -1,0 +1,38 @@
+{
+	"version": "2.0",
+	"routeKey": "ANY /test",
+	"rawPath": "/default/test",
+	"rawQueryString": "",
+	"headers": {
+		"accept": "application/json",
+		"authorization": "8X66xy4lCLcd1XO6yRc21OjNoDjCg91jE",
+		"content-length": "2150",
+		"content-type": "application/json",
+		"host": "aey0gnqp44.execute-api.us-west-2.amazonaws.com",
+		"user-agent": "GF Accepted Orders, Order Id: 122976839, Try Number: 7/10, Server Time: 2020-06-26T14:13:00.703Z",
+		"x-amzn-trace-id": "Root=1-5ef6026c-fd991c12d3164ee0b8457664",
+		"x-forwarded-for": "54.213.150.92",
+		"x-forwarded-port": "443",
+		"x-forwarded-proto": "https"
+	},
+	"requestContext": {
+		"accountId": "432902400683",
+		"apiId": "aey0gnqp44",
+		"domainName": "aey0gnqp44.execute-api.us-west-2.amazonaws.com",
+		"domainPrefix": "aey0gnqp44",
+		"http": {
+			"method": "POST",
+			"path": "/default/test",
+			"protocol": "HTTP/1.1",
+			"sourceIp": "54.213.150.92",
+			"userAgent": "GF Accepted Orders, Order Id: 122976839, Try Number: 7/10, Server Time: 2020-06-26T14:13:00.703Z"
+		},
+		"requestId": "OvVRAhOKPHcEM9w=",
+		"routeKey": "ANY /test",
+		"stage": "default",
+		"time": "26/Jun/2020:14:13:00 +0000",
+		"timeEpoch": 1593180780710
+	},
+	"body": "{\"count\":1,\"orders\":[{\"instructions\":null,\"coupons\":[],\"tax_list\":[{\"type\":\"item\",\"value\":5.73,\"rate\":0.08}],\"missed_reason\":null,\"id\":122976839,\"total_price\":77.4,\"sub_total_price\":77.4,\"tax_value\":5.73,\"persons\":0,\"latitude\":0,\"longitude\":0,\"client_first_name\":\"Przemysław\",\"client_last_name\":\"Gzbuciki\",\"client_email\":\"gzuba@programuj.com\",\"client_phone\":\"+48512233630\",\"restaurant_name\":\"Testowa Restauracja\",\"currency\":\"PLN\",\"type\":\"delivery\",\"status\":\"accepted\",\"source\":\"website\",\"pin_skipped\":true,\"accepted_at\":\"2020-06-26T14:04:48.000Z\",\"tax_type\":\"GROSS\",\"tax_name\":\"PTU/VAT\",\"fulfill_at\":\"2020-06-26T14:54:48.000Z\",\"reference\":null,\"restaurant_id\":136877,\"client_id\":11930952,\"updated_at\":\"2020-06-26T14:04:48.000Z\",\"restaurant_phone\":\"+48 666 666 666\",\"restaurant_timezone\":\"Europe/Warsaw\",\"company_account_id\":726001,\"pos_system_id\":18403,\"restaurant_key\":\"xWqX3tx5zupR6WYoBj\",\"restaurant_country\":\"Poland\",\"restaurant_city\":\"Poznań\",\"restaurant_zipcode\":\"61-731\",\"restaurant_street\":\"Nowowiejskiego 11\",\"restaurant_latitude\":\"52.409739699999996\",\"restaurant_longitude\":\"16.926716464418046\",\"restaurant_token\":\"\",\"gateway_transaction_id\":null,\"gateway_type\":null,\"api_version\":2,\"payment\":\"CARD\",\"for_later\":false,\"client_address\":\"Ładna 28, 62-023, Borówiec\",\"client_address_parts\":{\"street\":\"Ładna 28\",\"city\":\"Borówiec\",\"more_address\":\"62-023\"},\"items\":[{\"id\":156765297,\"name\":\"Pizza Prosciutto\",\"total_item_price\":77.4,\"price\":8,\"quantity\":6,\"instructions\":\"\",\"type\":\"item\",\"type_id\":3755070,\"tax_rate\":0.08,\"tax_value\":4.44444,\"parent_id\":null,\"item_discount\":0,\"cart_discount_rate\":0,\"cart_discount\":0,\"tax_type\":\"GROSS\",\"options\":[{\"id\":158751172,\"name\":\"duża\",\"price\":2,\"group_name\":\"Rozmiar\",\"quantity\":1,\"type\":\"size\",\"type_id\":2221170},{\"id\":158751173,\"name\":\"kukurydza\",\"price\":1.2,\"group_name\":\"Dadatki (do dużej)\",\"quantity\":1,\"type\":\"option\",\"type_id\":3985148},{\"id\":158751174,\"name\":\"Extra mozzarella\",\"price\":1.7,\"group_name\":\"Dadatki (do dużej)\",\"quantity\":1,\"type\":\"option\",\"type_id\":3985149},{\"id\":158751175,\"name\":\"Grube\",\"price\":0,\"group_name\":\"Ciasto\",\"quantity\":1,\"type\":\"option\",\"type_id\":3985143}]}]}]}",
+	"isBase64Encoded": false
+}
